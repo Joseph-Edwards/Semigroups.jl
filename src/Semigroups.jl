@@ -16,7 +16,7 @@ include("LibSemigroups.jl")
 using .LibSemigroups
 
 # Julia-side wrapper files
-include("libsemigroups/constants.jl")
+include(    "libsemigroups/constants.jl"    )   
 include("libsemigroups/errors.jl")
 include("libsemigroups/transf.jl")
 
